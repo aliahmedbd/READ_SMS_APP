@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.aliahmed.smsapp
 
 import org.junit.Test
 

@@ -59,4 +59,14 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+
+    //KOIN Dependency
+    implementation "io.insert-koin:koin-android:$koin_version"
+
+    //ViewModel + Lifecycle
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
+
+    //Coroutine
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$rootProject.coroutinesVersion"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$rootProject.coroutinesVersion"
 }
